@@ -1,0 +1,81 @@
+/* SustainableWorks.css */
+
+.sustainable-works-container {
+  padding: 50px 0;
+  text-align: center;
+}
+.works-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #2e6d5b;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.step {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+}
+
+.step-image {
+  max-width: 420px;
+  margin: 0 auto;
+  display: block;
+  /* Removed border-radius and box-shadow properties */
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-top: 15px;
+  color: #333;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.6;
+  margin-left: 110px;
+}
+
+.step p {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Optional: Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+  .steps-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .step {
+    max-width: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/* SustainableWorks.css */
+
+/* ... (previous styles) */
+
+.step-description {
+  margin-top: 10px;
+  text-align: center;
+  color: #666;
+  line-height: 1.6;
+  margin-left: 100px;
+}

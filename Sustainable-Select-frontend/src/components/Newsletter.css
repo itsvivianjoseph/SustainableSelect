@@ -1,0 +1,64 @@
+/* Newsletter.css */
+
+.newsletter-container {
+    background-color: #f1f9f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .newsletter-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2e6d5b;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-desc {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 40px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter-input {
+    border: none;
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .newsletter-button {
+    border: none;
+    background-color: #2e6d5b;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #1a4c3c;
+  }
+  
+  .newsletter-icon {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  

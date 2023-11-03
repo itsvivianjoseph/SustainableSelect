@@ -1,0 +1,286 @@
+/* Your global styles and other common styles */
+
+.product-container {
+    background: rgb(215,232,234);
+    background: linear-gradient(180deg, rgba(215,232,234,1) 0%, rgba(241,249,246,1) 84%);
+  }
+  
+  .product-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+  }
+  
+  .product-img-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+
+  .product-info-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product-info-container h1{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: light;
+  }
+  
+  .carbon-percentage {
+    font-weight: bold;
+    color: #2e6d5b;;
+  }
+  
+  .product-price p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e6d5b;;
+    margin-top: 10px;
+  }
+  
+  .product-filter-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .product-filter {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .product-filterTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-colors {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .product-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .product-size {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .product-add-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .product-amountContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  
+  .product-amount {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .product-button {
+    padding: 10px 20px;
+    background-color:#e0f7a2;
+    color:  #2e6d5b;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  margin-right: 30px;
+    &:hover {
+        background-color:  #ccee6d;
+    }
+  }
+  
+  /* Your media queries and other specific styles */
+  /* ... Your existing CSS rules ... */
+
+  .educative-content {
+    font-style: italic;
+  }
+  
+  .weight-text {
+    font-weight: bold;
+  }
+  
+  .green-text {
+    color: #2e6d5b;; /* Green color */
+  }
+  
+  /* ... Other CSS rules ... */
+  .product-img-container img {
+    height: 300px;
+    width: 600px;
+    margin-top: 40px;
+  }
+  .product-info-container p {
+    font-size: 20px;
+  }
+
+
+
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-wrapper {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .product-img-container {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-info-container {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-desc {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .educative-content {
+    color: #666;
+  }
+  
+  .weight-text {
+    font-weight: bold;
+  }
+  
+  .green-text {
+    color: green;
+  }
+  
+  .carbon-percentage {
+    color: #ff5733;
+  }
+  
+  .product-price p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .product-filter-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .product-filter {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .product-filterTitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .product-colors {
+    display: flex;
+  }
+  
+  .product-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .product-size {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .product-add-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .product-amountContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .product-amount {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  .product-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-button:hover {
+    background-color: #333;
+  }
+  

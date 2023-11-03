@@ -1,0 +1,54 @@
+.categories-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  max-width: 100%;
+}
+
+.category-slider {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.5s ease;
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+}
+
+.slider-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.left {
+  border-radius: 8px 0 0 8px;
+}
+
+.right {
+  border-radius: 0 8px 8px 0;
+}
+
+.category-items-wrapper {
+  display: flex;
+  width: calc(100% * ${({ totalPages }) => totalPages});
+  transition: transform 0.5s ease;
+  align-items: flex-start;
+}
+
+.category-item {
+  flex: 0 0 calc(100% / ${({ itemsPerPage }) => itemsPerPage});
+  padding: 10px;
+  box-sizing: border-box;
+}
+/* Add these styles to your Categories.css */
+
+/* Add these styles to your Categories.css */
+.red-background {
+  background-color: #e0f7a2;
+}

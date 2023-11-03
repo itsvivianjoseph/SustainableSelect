@@ -1,0 +1,136 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: rgb(46,109,91);
+  background: linear-gradient(180deg, rgba(46,109,91,1) 0%, rgba(215,232,234,1) 100%);
+  color: rgb(1, 60, 16);
+
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.nav-logo-image {
+  height: 80px;
+  width: 80px;
+}
+
+.header-text-wrapper {
+  margin-left: 15px;
+}
+
+.header-text {
+  font-size: 38px;
+  margin: 0;
+}
+
+.sub-header-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color:#e0f7a2
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: none;
+  background-color: #e0f7a2;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Add these styles for the menu icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
+  /* Hide nav links by default */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #1a1a1a;
+    width: 100%;
+  }
+
+  /* Show nav links when menu is open */
+  .menu-open .nav-links {
+    display: flex;
+  }
+
+  /* Style for each nav link */
+  .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+/* Add these styles for the menu icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  /* Hide nav links by default */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #1a1a1a;
+    width: 100%;
+  }
+
+  /* Show nav links when menu is open */
+  .menu-open .nav-links {
+    display: flex;
+  }
+
+  /* Style for each nav link */
+  .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}

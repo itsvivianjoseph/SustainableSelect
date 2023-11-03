@@ -1,0 +1,150 @@
+.footer-container {
+    display: flex;
+  }
+  
+  .footer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: rgb(46,109,91);
+    background: linear-gradient(0deg, rgba(46,109,91,1) 0%, rgba(241,249,246,1) 84%);
+  }
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-desc {
+    margin: 20px 0px;
+  }
+  
+  .social-container {
+    display: flex;
+  }
+  
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .facebook {
+    background-color: #3b5999;
+  }
+  
+  .instagram {
+    background-color: #e4405f;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .pinterest {
+    background-color: #e60023;
+  }
+  
+  .footer-center {
+    flex: 1;
+    padding: 20px;
+    background: rgb(46,109,91);
+background: linear-gradient(0deg, rgba(46,109,91,1) 0%, rgba(241,249,246,1) 84%);
+  }
+  
+  .footer-title {
+    margin-bottom: 30px;
+  }
+  
+  .footer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-list li {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .footer-right {
+    flex: 1;
+    padding: 20px;
+    background: rgb(46,109,91);
+    background: linear-gradient(0deg, rgba(46,109,91,1) 0%, rgba(241,249,246,1) 84%);
+  }
+  
+  .contact-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+  }
+  
+  .payment {
+    width: 50%;
+  }
+  .footer-left img{
+    height: 80px;
+    width: 80px;
+  }
+  .footer-container {
+    /* ... Other styles ... */
+  }
+  
+  .logo-and-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-image {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+  }
+  .logo-and-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-image {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .title-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-title {
+    font-size: 24px;
+    color: #2e6d5b;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    color: #2e6d5b;
+    margin: 0;
+  }
+  

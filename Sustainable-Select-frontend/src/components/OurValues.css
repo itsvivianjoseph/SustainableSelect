@@ -1,0 +1,58 @@
+.our-values-container {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .our-values-content {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of elements */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .values-text {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .values-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .values-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+
+  .learn-more-button {
+    margin-top: 30px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #e0f7a2;
+    color: #2e6d5b;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .learn-more-button:hover {
+    background-color:  #ccee6d;
+  }
+  .values-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .values-image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+    border-radius: 12px;
+  }
+  

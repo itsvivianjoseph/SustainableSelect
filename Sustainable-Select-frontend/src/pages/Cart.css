@@ -1,0 +1,105 @@
+/* Cart.css */
+*{
+    font-family: 'Urbanist', sans-serif; 
+
+}
+/* Styles for the h1 element */
+.cart-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Urbanist', sans-serif; 
+    margin-top: -80px;
+  }
+  .cart-buttons {
+    background-color: rgba(215,232,234,1);
+  }
+  /* Styles for the buttons */
+  .cart-button {
+    padding: 10px;
+    background-color: #e0f7a2;
+    color: #2e6d5b;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the underline spans */
+  .cart-underline {
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0px 10px;
+  }
+  
+  /* Styles for the product container */
+  .product-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Styles for the product image */
+  .product-image {
+    width: 200px;
+  }
+  
+  /* Styles for the product details */
+  .product-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  /* Styles for the color indicator */
+  .color-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Styles for the quantity controls */
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the product price */
+  .product-price {
+    font-size: 30px;
+
+  }
+  
+  /* Styles for the order summary container */
+  .order-summary {
+    flex: 1;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+  }
+  
+  /* Styles for the order summary title */
+  .order-summary-title {
+
+  }
+  
+  /* Styles for the summary items */
+  .summary-item {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+  
+  /* Styles for the checkout button */
+  .checkout-button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+
+  
+  background-color: #e0f7a2;
+    color: #2e6d5b;
+    cursor: pointer;
+    border-radius: 4px;
+  }
