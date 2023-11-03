@@ -1,5 +1,22 @@
 {
-    "version":2,
-    "builds": [{"src":"./index.js","use":"@vercel/node"}],
-    "routes": [{"src":"/(.*)","dest":"/"}]
-}
+    "version": 2,
+    "builds": [
+      { "src": "path/to/products-function.js", "use": "@vercel/node" },
+      { "src": "path/to/users-function.js", "use": "@vercel/node" },
+      { "src": "path/to/carts-function.js", "use": "@vercel/node" },
+      { "src": "path/to/orders-function.js", "use": "@vercel/node" },
+      { "src": "path/to/payment-function.js", "use": "@vercel/node" },
+      { "src": "path/to/educative-content-function.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/products", "dest": "path/to/products-function.js" },
+      { "src": "/api/users", "dest": "path/to/users-function.js" },
+      { "src": "/api/carts", "dest": "path/to/carts-function.js" },
+      { "src": "/api/orders", "dest": "path/to/orders-function.js" },
+      { "src": "/api/payment", "dest": "path/to/payment-function.js" },
+      { "src": "/api/educative-content/textile", "dest": "path/to/educative-content-function.js" },
+      { "src": "/api/educative-content/electricity", "dest": "path/to/educative-content-function.js" },
+      { "src": "/api/educative-content/transport", "dest": "path/to/educative-content-function.js" },
+      { "src": "/api/educative-content/waste", "dest": "path/to/educative-content-function.js" }
+    ]
+  }
