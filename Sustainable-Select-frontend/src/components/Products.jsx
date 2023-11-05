@@ -17,14 +17,24 @@ const Products = ({ cat, filters, sort }) => {
 
   useEffect(() => {
     const getProducts = async () => {
+      // try {
+      //   const res = await axios.get(
+      //     cat
+      //       ? `http://localhost:5000/api/products?category=${cat}`
+      //       : "http://localhost:5000/api/products"
+      //   );
+      //   setProducts(res.data.products);
+      // }
       try {
+        const baseUrl = "https://sustainable-select-server.vercel.app/api/"; 
         const res = await axios.get(
           cat
-            ? `http://localhost:5000/api/products?category=${cat}`
-            : "http://localhost:5000/api/products"
+            ? `${baseUrl}products?category=${cat}`
+            : `${baseUrl}products`
         );
         setProducts(res.data.products);
-      } catch (err) {}
+      }
+       catch (err) {}
     };
     getProducts();
   }, [cat]);
